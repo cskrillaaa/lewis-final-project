@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Carry On Resorts</title>
+        <meta name="author" content="Chelsea Lewis">
+        <meta name="description" content="Contact page for Carry On website">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <!-- The header holds content that is repeated on each page, like the h1, navigation, and logo -->
+            <h1>Carry On Resorts</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a>Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="contact">
+                <section>
+                    <h2>Contact Us</h2>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                    <img src="images/swiss-peak.jpg" alt="snowcapped mountain behind green pines" width="350" height="455">
+                </section>
+            
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="my-name">Full Name<span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+                    <label for="my-email">Email Address<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email">
+                    <label for="my-phone">Phone Number<span class="required">*</span></label>
+                    <input type="number" name="my-phone" id="my-phone">
+                    <fieldset>
+                        <legend>Preferred Contact Method</legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+                    <label for="my-comments">Comments<span class="required">*</span></label>
+                    <textarea name="my-comments" id="my-comments"></textarea>
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </form>
+            </div>
+            
+            <!-- The main holds content that is different on each page, based on the topic -->
+        </main>
+        <footer>
+            <!-- The footer holds content that is repeated on each page, like the copyright statement and social media links -->
+            <p>Copyright &copy;2023 - Carry On</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
